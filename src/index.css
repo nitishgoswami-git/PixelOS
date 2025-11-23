@@ -8,15 +8,17 @@ body {
   width: 100dvw;
   overflow: hidden;
   height: 100dvh;
-  background-color: #2e3436;  /* Dark theme background */
-  color: #d5d8dc;  /* Light grey text color */
+  background-color: #2e3436;
+  /* Dark theme background */
+  color: #d5d8dc;
+  /* Light grey text color */
   font-family: "Ubuntu", sans-serif;
 }
 
 @theme {
   --font-ubuntu: "Ubuntu", sans-serif;
   --font-roboto: "Roboto Mono", monospace;
-  --font-georama : "Georama",sans-serif;
+  --font-georama: "Georama", sans-serif;
   --breakpoint-3xl: 1920px;
 }
 
@@ -53,7 +55,8 @@ body {
 
       p {
         @apply text-sm cursor-pointer hover:underline transition-all;
-        color: #b3b6b8; /* Lighter text for menu items */
+        color: #b3b6b8;
+        /* Lighter text for menu items */
       }
     }
 
@@ -88,7 +91,7 @@ body {
     }
 
     .tooltip {
-      @apply !py-1 !px-5 !w-fit !text-center !text-lg !rounded-full  !text-white !shadow-2xl !bg-[#fff]/15 border;
+      @apply !py-1 !px-5 !w-fit !text-center !text-lg !rounded-full !text-white !shadow-2xl !bg-[#fff]/15 border;
     }
 
     .dock-icon {
@@ -103,18 +106,15 @@ body {
   #window-controls {
     @apply flex gap-2;
 
-    .close {
-      @apply size-3.5 rounded-full bg-[#f44336] cursor-pointer;
+    button {
+      @apply p-1 rounded flex items-center justify-center cursor-pointer transition hover:bg-gray-600;
     }
 
-    .minimize {
-      @apply size-3.5 rounded-full bg-[#ff9800];
-    }
-
-    .maximize {
-      @apply size-3.5 rounded-full bg-[#4caf50];
+    svg {
+      @apply size-3.5 text-white;
     }
   }
+
 
   #window-header {
     @apply flex items-center justify-between px-4 py-3 rounded-t-lg bg-[#212121] border-b border-gray-500 select-none text-sm text-gray-400;
@@ -396,4 +396,3 @@ body {
     }
   }
 }
-
