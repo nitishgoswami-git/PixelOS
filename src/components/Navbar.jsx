@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <nav>
             <div className='flex  justify-between'>
-                <img className="logo" src="icons/arch-light.svg" alt="logo" />
+                <img className="logo" src="icons/arch-light.svg" alt="logo" style ={{height:"24px"}} />
                 <ul>
                     {navLinks.map(({id,name}) => (
                             <li key={id}>

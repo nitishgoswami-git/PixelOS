@@ -19,19 +19,19 @@ const navLinks = [
 const navIcons = [
   {
     id: 1,
-   img: "/icons/brightness.svg",
+   img: "/icons/nav/brightness.svg",
   },
   {
     id: 2,
-    img: "/icons/wifi.svg",
+    img: "/icons/nav/wifi.svg",
   },
   {
     id: 3,
-    img: "/icons/sound.svg",
+    img: "/icons/nav/sound.svg",
   },
   {
     id: 4,
-    img: "/icons/battery.svg",
+    img: "/icons/nav/battery.svg",
   },
 ];
 
@@ -39,37 +39,37 @@ const dockApps = [
   {
     id: "finder",
     name: "Portfolio", // was "Finder"
-    icon: "finder.png",
+    icon: "icons/dock/folder.png",
     canOpen: true,
   },
   {
     id: "safari",
     name: "Articles", // was "Safari"
-    icon: "safari.png",
+    icon: "icons/dock/chrome.png",
     canOpen: true,
   },
   {
     id: "photos",
     name: "Gallery", // was "Photos"
-    icon: "photos.png",
+    icon: "icons/dock/gallery.png",
     canOpen: true,
   },
   {
     id: "contact",
     name: "Contact", // or "Get in touch"
-    icon: "contact.png",
+    icon: "icons/dock/mail.png",
     canOpen: true,
   },
   {
     id: "terminal",
     name: "Skills", // was "Terminal"
-    icon: "terminal.png",
+    icon: "icons/dock/terminal.png",
     canOpen: true,
   },
   {
     id: "trash",
     name: "Archive", // was "Trash"
-    icon: "trash.png",
+    icon: "icons/dock/trash.png",
     canOpen: false,
   },
 ];
