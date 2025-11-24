@@ -130,10 +130,11 @@ body {
         @apply placeholder:text-gray-500 text-white bg-[#353a42];
       }
     }
-    .tab{
-      @apply  bg-[#2C2F36] !-ml-62 !-mb-4 p-2  !border-gray-700
+
+    .tab {
+      @apply bg-[#2C2F36] !-ml-62 !-mb-4 p-2 !border-gray-700
     }
-    
+
     .blog {
       @apply bg-[#2c2f36] p-10 max-w-3xl mx-auto;
 
@@ -312,10 +313,10 @@ body {
   }
 
   #finder {
-    @apply absolute w-3xl left-40 top-20 shadow-lg rounded-xl overflow-hidden;
+    @apply absolute w-3xl left-40 top-20 shadow-lg rounded-xl overflow-hidden ;
 
     .sidebar {
-      @apply w-48 bg-[#212121] border-r border-gray-600 flex flex-col p-5 space-y-3;
+      @apply w-48 bg-[#272b2c] border-r border-gray-600 flex flex-col  p-5 space-y-3;
 
       h3 {
         @apply text-xs font-medium text-white mb-1;
@@ -333,23 +334,23 @@ body {
         }
 
         li {
-          @apply flex items-center gap-2 px-3 py-2 rounded-md cursor-pointer transition-colors;
+          @apply flex !font-light items-center gap-2 px-3 py-2 rounded-md cursor-pointer transition-colors;
         }
       }
     }
 
     .content {
-      @apply flex-1 p-8 bg-[#2e3436] max-w-2xl relative;
+      @apply flex flex-wrap gap-6 p-3  max-w-2xl relative;
 
       li {
-        @apply absolute flex items-center flex-col gap-3;
+        @apply flex flex-col items-center gap-1 w-20 h-20 cursor-pointer;
 
         img {
-          @apply object-contain object-center size-16 relative group-hover:scale-105;
+          @apply object-contain object-center size-12 transition-transform duration-300 group-hover:scale-105;
         }
 
         p {
-          @apply text-sm text-center font-medium w-40;
+          @apply text-sm text-center font-medium w-full;
         }
       }
     }

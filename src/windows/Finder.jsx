@@ -31,7 +31,7 @@ function Finder() {
                     className={clsx(
                         item.id === activeLocation?.id ? "active" : "not-active",)}>
                     <img src={item.icon} alt={item.name} className='w-4' />
-                    <p className='text-sm font-medium truncate'>{item.name}</p>
+                    <p className='text-sm font-light text-white truncate'>{item.name}</p>
                 </li>
             ))}
         </ul>
@@ -59,7 +59,7 @@ function Finder() {
 
                 <WindowControls target='finder' />
             </div>
-            <div className="bg-gray-800 flex h-full">
+            <div className="bg-[#2e3436] flex h-full">
                 <div className="sidebar">
                     {renderList("Favorites", Object.values(locations))}
                     <div className="overflow-y-auto">

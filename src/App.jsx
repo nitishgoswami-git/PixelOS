@@ -1,4 +1,4 @@
-import { Dock, Navbar, Welcome } from '#components'
+import { Dock, Home, Navbar, Welcome} from '#components'
 import { Chrome, Finder, Resume, Terminal, TextViewer,ImageViewer, Contact } from '#windows'
 
 
@@ -23,6 +23,7 @@ function App() {
       <TextViewer/>
       <ImageViewer/>
       <Contact/>
+      <Home/>
     </main>
   )
 }

@@ -252,7 +252,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "url",
           href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-          position: "top-10 right-20",
+          position: "top-5 right-15",
         },
         {
           id: 4,
@@ -260,7 +260,7 @@ const WORK_LOCATION = {
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-52 right-80",
+          position: "top-5 right-20",
           imageUrl: "/images/project-1.png",
         },
         {
