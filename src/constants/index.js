@@ -424,10 +424,11 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/nitish.jpg",
       description: [
-        """Hey there! I'm someone who loves exploring new ideas, diving into creative projects, and embracing life's challenges\
-         Whether it's tackling a work project, learning something new, or just enjoying a quiet moment, I approach everything with curiosity and passion\
-          I enjoy [insert hobbies or interests here, like reading, writing, hiking, coding, etc.] and am always looking for ways to grow and connect with \
-          like-minded people. Life is an adventure, and I’m all about making the most of every moment. Let’s connect and share ideas!"""
+        "Hey there! I'm someone who loves exploring new ideas, diving into creative projects, "
+    "and embracing life's challenges. Whether it's tackling a work project, learning something new, "
+    "or just enjoying a quiet moment, I approach everything with curiosity and passion. "
+    "I enjoy [your hobbies here] and am always looking for ways to grow and connect with like-minded people. "
+    "Life is an adventure, and I’m all about making the most of every moment. Let’s connect and share ideas!"
       ],
     },
   ],
